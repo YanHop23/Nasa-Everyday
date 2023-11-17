@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+body.menu-open {
+  overflow: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* для модального вікна вибору дат datepicker */
+.react-datepicker__year-dropdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.react-datepicker__year-option {
+  margin: 0.2rem;
+}
+
+
+body {
+  color: #ffffff;
+  background-color: #fff;
+}
+a {
+  color: #ffffff;
+}
+@media  (max-width: 767px) {
+  body {
+    color: #000000;
+    background-color: #fff;
+  }
+  a {
+      color: #000;
+  }
+} 

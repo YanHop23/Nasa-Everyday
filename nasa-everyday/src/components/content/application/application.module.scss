@@ -1,0 +1,88 @@
+.wrapper {
+    position: relative;
+    .datepicker {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        margin: 30px 0 30px 0;
+    }
+    .searchblock {
+        position: fixed;
+        right: 15px;
+        bottom: 15px;
+        z-index: 4;
+        .searchblock__pict {
+            content: "";
+            width: 70px;
+            height: 70px;
+            background-color: rgb(252, 136, 58);
+            border-radius: 50%;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                top: 15px;
+                left: 15px;
+                width: 20px;
+                height: 20px;
+                background-color: rgb(252, 136, 58);
+                border: 3px solid rgb(9,9,121);
+                border-radius: 50%;
+            }
+            &::after {
+                position: absolute;
+                content: "";
+                top: 35px;
+                left: 45px;
+                width: 3px;
+                height: 20px;
+                transform: rotate(-45deg);
+                background-color: rgb(9,9,121);
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .datepicker {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        margin: 20px 0 20px 0;
+    }
+    .searchblock {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        z-index: 4;
+        .searchblock__pict {
+            width: 60px;
+            height: 60px;
+            background-color: rgb(252, 136, 58);
+            border-radius: 50%;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                top: 15px;
+                left: 15px;
+                width: 17px;
+                height: 17px;
+                background-color: rgb(252, 136, 58);
+                border: 3px solid rgb(9,9,121);
+                border-radius: 50%;
+            }
+            &::after {
+                position: absolute;
+                content: "";
+                top: 30px;
+                left: 40px;
+                width: 3px;
+                height: 20px;
+                transform: rotate(-45deg);
+                background-color: rgb(9,9,121);
+            }
+        }
+    }
+}
+
