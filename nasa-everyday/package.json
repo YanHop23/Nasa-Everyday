@@ -1,6 +1,7 @@
 {
   "name": "nasa-everyday",
   "version": "0.1.0",
+  "homepage": "https://YanHop23.github.io/Nasa-Everyday",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -31,6 +32,7 @@
     "eslint-webpack-plugin": "^3.1.1",
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
+    "gh-pages": "^6.2.0",
     "google-translate-api": "^2.3.0",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
@@ -38,6 +40,7 @@
     "jest-resolve": "^27.4.2",
     "jest-watch-typeahead": "^1.0.0",
     "mini-css-extract-plugin": "^2.4.5",
+    "npm": "^10.8.3",
     "path-browserify": "^1.0.1",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -72,6 +75,8 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
