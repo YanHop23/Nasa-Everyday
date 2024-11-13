@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Nasa-Everyday/static/css/main.f60d0013.css",
+    "main.js": "/Nasa-Everyday/static/js/main.f1ca0c00.js",
+    "static/js/787.23b5e07a.chunk.js": "/Nasa-Everyday/static/js/787.23b5e07a.chunk.js",
+    "static/media/Earth_backround.mp4": "/Nasa-Everyday/static/media/Earth_backround.ed96499a6cb0859b1b58.mp4",
+    "static/media/second.png": "/Nasa-Everyday/static/media/second.3409adfa3b92befe7c56.png",
+    "static/media/three.png": "/Nasa-Everyday/static/media/three.716928570a98a1dadb0f.png",
+    "static/media/Nasa_logo.png": "/Nasa-Everyday/static/media/Nasa_logo.d78c8070b65e58e877e4.png",
+    "static/media/first.png": "/Nasa-Everyday/static/media/first.25032d9e8adf2bb833c6.png",
+    "index.html": "/Nasa-Everyday/index.html",
+    "main.f60d0013.css.map": "/Nasa-Everyday/static/css/main.f60d0013.css.map",
+    "main.f1ca0c00.js.map": "/Nasa-Everyday/static/js/main.f1ca0c00.js.map",
+    "787.23b5e07a.chunk.js.map": "/Nasa-Everyday/static/js/787.23b5e07a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f60d0013.css",
+    "static/js/main.f1ca0c00.js"
+  ]
+}
